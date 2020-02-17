@@ -1,5 +1,10 @@
 # E05b-Scripting-and-Scenes
 
+I took a couple liberties over the instructions stated here. In the game over
+scene, I used a Node instead of a Node2D for the 'Message' node since Control
+nodes don't like having Node2Ds as parents. I also made it so that the ball's
+direction depends on where it hit the paddle.
+
 To continue to prepare you to turn in the space shooter project, we will experiment a little with more scripting, some procedural generation, and switching scenes in GDScript.
 
 As usual, Fork and Clone this repository. Pay attention to where (on the file system) it is being saved.
